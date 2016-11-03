@@ -3,10 +3,10 @@
 .SYNOPSIS
    Quickly set verbose preference.
 .DESCRIPTION
-   This is a quick command that can be aliased to set verbose preference.
+   This is a quick command that can be aliased to set verbose preference. Github test.
 #>
 
-$nppFolder = "${env:ProgramFiles(x86)}\Notepad++"
+$nppFolder = "${env:ProgramFiles}\Notepad++"
 if ((Test-Path "$nppFolder") -eq $True)
 {
 	Write-Verbose "Setting npp alias to $nppFolder\notepad++.exe"
